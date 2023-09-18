@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after{box-sizing:border-box;}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Castoro, serif;
+  line-height: 1.5;
+}
+
+h1{
+  letter-spacing: 0.12em;
+  font-size: 128px;
+	padding-top: 160px;
+}
+
+.title img{
+  display: block;
+  margin: 0 auto;
+}
+
+.resume-text {
+  font-size:128px;
+  letter-spacing: 0.12em;
+  margin-left:auto;
+  width:50%;
+}
+
+/***introduce ***/
+.introduce{
+  background-color: #efefef;
+  height:432px;
+  padding: 48px 0;
+  margin-bottom:80px;
+}
+
+.introduce-text{
+  width:636px;
+  margin-left:auto;
+  font-size: 32px;
+}
+
+/***main***/
+ul li{
+  list-style-type:none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.main-info-title{
+	width: 636px;
+	color: #ae0000;
+	font-size: 40px;
+	margin-bottom: 16px;
+  border-bottom: 3px solid #ae0000;
+}
+
+.main-info-namede{
+	width: 636px;
+	font-size: 24px;
+}
+
+.main-info li{margin-bottom:8px;}
+
+.info-name-list{
+  color:#000
+}
+
+.year{font-style:italic;
+  color:#949494;
+  font-size:20px;
+
+}
+
+.education-list{
+	width: 636px;
+	font-size: 24px;
+  margin-bottom:16px;
+}
+
+.work-list{
+  width: 636px;
+	font-size: 24px;
+  margin-bottom:16px
+}
+
+.main-award p{
+ width: 636px;
+ font-size: 24px; 
+ margin-bottom:12px;
+}
+/***footer***/
+.footer {
+  margin-top:160px;
+  padding: 64px 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;}
+
+img{margin-left:40px;}
+  
+  

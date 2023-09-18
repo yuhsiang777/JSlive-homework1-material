@@ -1,0 +1,180 @@
+// mixin
+
+@mixin pad {
+  @media (min-width: 768px){
+    @content
+  }
+}
+
+
+// base
+
+body {
+  font-family: 'Castoro', serif;
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+// utils
+
+// typo
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.fz-48 {
+  font-size: 48px;
+}
+
+.fz-md-32 {
+  @include pad {
+    font-size: 32px;
+  }
+}
+
+.fz-md-40 {
+  @include pad {
+    font-size: 40px;
+  }
+}
+
+.fz-md-128 {
+  @include pad{
+    font-size: 128px;
+  }
+}
+
+
+// spacing
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-64 {
+  margin-top: 64px;
+}
+
+.mt-md-40 {
+  @include pad {
+    margin-top: 40px;
+  }
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-md-40 {
+  @include pad {
+    margin-right: 40px;
+  }
+}
+
+.mt-md-160 {
+  @include pad {
+    margin-top: 160px;
+  }
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-md-16 {
+  @include pad {
+    margin-bottom: 16px;
+  }
+}
+
+.mb-md-80 {
+  @include pad {
+    margin-bottom: 80px;
+  }
+}
+
+.mb-md-160 {
+  @include pad {
+    margin-bottom: 160px;
+  }
+}
+
+.py-12 {
+  padding: 12px 0;
+}
+
+.py-24 {
+  padding: 24px 0;
+}
+
+.py-md-48 {
+  @include pad {
+    padding: 48px 0;
+  }
+}
+
+.py-md-64 {
+  @include pad {
+    padding: 64px 0;    
+  }
+}
+
+
+// color
+
+.bg-easy {
+  background: #EFEFEF;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.text-warm {
+  color: #AE0000;
+}
+
+.text-mid {
+  color: #949494;
+}
+
+.border-warm {
+  border-color: #AE0000 !important;
+}
